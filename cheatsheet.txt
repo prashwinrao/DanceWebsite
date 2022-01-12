@@ -1,0 +1,32 @@
+git config --global user.name "your name"
+
+git config --global user.name
+
+git config --global user.email "your email"
+
+git config --global user.email 
+
+touch.gitignore  -->to ignore which ever files you dont want to clone
+
+git init
+
+git add .
+
+git commit -m "Initial commit"
+
+git status -->to check the status whether committed or not
+
+git remote add origin git@github.com:ashwin-hith/DanceWebsite.git
+
+setting 
+ssh and jpg keys
+new ssh key title:- give your title
+
+for authentication see the documentation and follow the rules name"generating a new ssh key"
+then u will get the ssh key saved in c drive in some location 
+take that key n paste it in KEY of the title and save
+
+git push origin master 
+
+git st
+
