@@ -1,0 +1,67 @@
+//- index.pug
+doctype html
+html
+  head
+    title Ashwin Dance Academy
+    style
+      include ../static/style.css
+  body
+    
+    nav#navbar 
+        ul
+            div#logo
+                img(src="/static/logo.png", alt="")
+                | ADA
+            li #[a(href='/') Home]
+            li #[a(href='/') About] 
+            li #[a(href='/') Services] 
+            li #[a(href='/') Class Info] 
+            li #[a(href='/') Contact Us]
+    
+    section#introSection 
+        div  Welcome to Ashwin's Dance Academy 
+        div.small  Eat Sleep Dance Repeat
+
+    section#missionSection 
+        h2 Our Missions  
+        div.card
+            h3 Dance Perfection 
+            div.card-box
+                div.card-img
+                    img(src="/static/girl.png")
+
+                div.card-content 
+                    p This is the best dance academy of the universe
+        div.card
+            h3 Dance the Way you like 
+            div.card-box
+                div.card-img
+                    img(src="/static/1.png")
+
+                div.card-content 
+                    p This is the best dance academy of the universe
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/girl2.png")
+
+                div.card-content 
+                    p This is the best dance academy of the universe
+
+    section#sponsorsSection 
+        h2 Our Sponsors 
+        div#sponsors
+            img(src="/static/apple.png", class="spImage")
+            img(src="/static/microsoft.png", class="spImage")
+            img(src="/static/hp.png", class="spImage")
+            img(src="/static/skype.png", class="spImage")
+
+    footer#footer 
+        | Copyright &copy 2021 AshwinDanceAcademy.com | All rights reserved 
+
+
+
+   
+    script
+      include ../static/index.js
