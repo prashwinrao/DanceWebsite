@@ -1,23 +1,24 @@
-git config --global user.name "your name"
+git config --global user.name "your name" -->you can enter you name
 
-git config --global user.name
+git config --global user.name --> to display your name
 
-git config --global user.email "your email"
+git config --global user.email "your email" --> you can enter your email
 
-git config --global user.email 
+git config --global user.email --> to display your email
 
-touch.gitignore  -->to ignore which ever files you dont want to clone
+touch.gitignore  -->to ignore which ever files you dont want to push into the github 
 
-git init
+git init --> to initialise the git on the folder
 
-git add .
+git add . --> syntax
 
-git commit -m "Initial commit"
+git commit -m "Initial commit" --> its like a message for every changes
 
 git status -->to check the status whether committed or not
 
-git remote add origin git@github.com:ashwin-hith/DanceWebsite.git
+git remote add origin git@github.com:ashwin-hith/DanceWebsite.git -->to add the github path into the folder
 
+#for the sshkey
 setting 
 ssh and jpg keys
 new ssh key title:- give your title
@@ -26,7 +27,9 @@ for authentication see the documentation and follow the rules name"generating a 
 then u will get the ssh key saved in c drive in some location 
 take that key n paste it in KEY of the title and save
 
-git push origin master 
+git push origin master -->to push the folder and files present in the folder to your github account
 
-git st
-
+if you do any changes in your folder than you have to the following steps
+git add .
+git commit -m "Added cheatsheet"
+git push origin master
