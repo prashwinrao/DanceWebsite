@@ -1,15 +1,18 @@
 const express=require("express");
 const path=require("path");
 const app=express();
-const port=80;
+const port=3000;
 const bodyparser=require("body-parser");
 
 const mongoose = require('mongoose');
 
+app.use(bodyparser.urlencoded({ extended: true }));
+mongoose.set('strictQuery', true);
+
 main().catch(err => console.log(err));
 
 async function main() {
-  await mongoose.connect('mongodb://localhost/contactDance');
+  await mongoose.connect('mongodb+srv://ashwin:sakshi@cluster0.wjcktrs.mongodb.net/');
 }
 
 
