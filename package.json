@@ -4,7 +4,8 @@
   "description": "This is a website for a popular dace academy",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "build": " npx pug -o ./public ./views"
   },
   "author": "Ashwin",
   "license": "ISC",
